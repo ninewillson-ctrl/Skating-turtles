@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> skating turtles </title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #111;
+        color: #fff;
+    }
+
+    header {
+        background: linear-gradient(135deg, #ff4d00, #ff9900);
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 3em;
+        margin: 0;
+    }
+
+    header p {
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+
+    nav {
+        background: #000;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav a {
+        color: #fff;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    section {
+        padding: 50px 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .card {
+        background: #1c1c1c;
+        padding: 20px;
+        border-radius: 10px;
+        flex: 1 1 250px;
+        transition: transform 0.2s;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 20px;
+        background: #ff4d00;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    footer {
+        background: #000;
+        text-align: center;
+        padding: 20px;
+        font-size: 0.9em;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>skating turtles </h1>
+    <p>Ride. Learn. Fall. Get Back Up. Together.</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#shop">Buy/Sell/Trade</a>
+    <a href="#events">Events</a>
+    <a href="#community">Community</a>
+    <a href="#contact">Join Us</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        We are building a safe, fun, and supportive skateboarding community right here in Oklahoma City. 
+        Our mission is to give every kid a chance to skate—no matter their background.
+    </p>
+    <p>
+        We believe in learning through experience: falling, getting back up, and growing stronger every time.
+    </p>
+</section>
+
+<section id="shop">
+    <h2>Buy • Sell • Trade</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Buy Gear</h3>
+            <p>Find affordable skateboards, helmets, and gear for all levels.</p>
+        </div>
+        <div class="card">
+            <h3>Sell Equipment</h3>
+            <p>Upgrade your setup and pass your old gear to someone who needs it.</p>
+        </div>
+        <div class="card">
+            <h3>Trade Boards</h3>
+            <p>Trade with other skaters and keep progressing without breaking the bank.</p>
+        </div>
+    </div>
+</section>
+
+<section id="events">
+    <h2>Meetups & Competitions</h2>
+    <p>
+        We host regular skate meetups and competitions at local skate parks around OKC.
+    </p>
+    <ul>
+        <li>Weekly skate sessions</li>
+        <li>Beginner-friendly lessons</li>
+        <li>Trick competitions</li>
+        <li>Board giveaways</li>
+    </ul>
+    <a href="#" class="btn">See Upcoming Events</a>
+</section>
+
+<section id="community">
+    <h2>For Parents & Families</h2>
+    <p>
+        This is more than skating—it’s a positive environment where kids build confidence, 
+        learn discipline, and make lasting friendships.
+    </p>
+    <p>
+        We focus on mentorship, encouragement, and giving kids a place where they belong.
+    </p>
+</section>
+
+<section>
+    <h2>Give Back</h2>
+    <p>
+        We provide skateboards and gear to kids who otherwise couldn’t afford them.
+        Every donation helps a child get started and become part of something bigger.
+    </p>
+    <a href="#" class="btn">Donate or Sponsor</a>
+</section>
+
+<section id="contact">
+    <h2>Join the Movement</h2>
+    <p>Be part of the OKC skate community. Ride with us.</p>
+    <p>Email: ninewillson@gmail.com</p>
+   
+</section>
+
+<footer>
+    <p>© 2026 OKC Skate Community | Built for the next generation of skaters</p>
+</footer>
+
+</body>
