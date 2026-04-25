@@ -3,91 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> skating turtles </title>
-<style>
-    body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-        background: #111;
-        color: #fff;
-    }
-
-    header {
-        background: linear-gradient(135deg, #ff4d00, #ff9900);
-        padding: 60px 20px;
-        text-align: center;
-    }
-
-    header h1 {
-        font-size: 3em;
-        margin: 0;
-    }
-
-    header p {
-        font-size: 1.2em;
-        margin-top: 10px;
-    }
-
-    nav {
-        background: #000;
-        padding: 10px;
-        text-align: center;
-    }
-
-    nav a {
-        color: #fff;
-        margin: 0 15px;
-        text-decoration: none;
-        font-weight: bold;
-    }
-
-    section {
-        padding: 50px 20px;
-        max-width: 1000px;
-        margin: auto;
-    }
-
-    .cards {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    .card {
-        background: #1c1c1c;
-        padding: 20px;
-        border-radius: 10px;
-        flex: 1 1 250px;
-        transition: transform 0.2s;
-    }
-
-    .card:hover {
-        transform: scale(1.05);
-    }
-
-    .btn {
-        display: inline-block;
-        margin-top: 15px;
-        padding: 10px 20px;
-        background: #ff4d00;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 5px;
-    }
-
-    footer {
-        background: #000;
-        text-align: center;
-        padding: 20px;
-        font-size: 0.9em;
-    }
-</style>
+<title>Skating Turtles - OKC Skateboarding Community</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
 <header>
-    <h1>skating turtles </h1>
+    <h1>skating turtles</h1>
     <p>Ride. Learn. Fall. Get Back Up. Together.</p>
 </header>
 
@@ -116,14 +39,17 @@
         <div class="card">
             <h3>Buy Gear</h3>
             <p>Find affordable skateboards, helmets, and gear for all levels.</p>
+            <a href="#" class="btn">Browse Gear</a>
         </div>
         <div class="card">
             <h3>Sell Equipment</h3>
             <p>Upgrade your setup and pass your old gear to someone who needs it.</p>
+            <a href="#" class="btn">List Your Gear</a>
         </div>
         <div class="card">
             <h3>Trade Boards</h3>
             <p>Trade with other skaters and keep progressing without breaking the bank.</p>
+            <a href="#" class="btn">Find Trades</a>
         </div>
     </div>
 </section>
@@ -145,7 +71,7 @@
 <section id="community">
     <h2>For Parents & Families</h2>
     <p>
-        This is more than skating—it’s a positive environment where kids build confidence, 
+        This is more than skating—it's a positive environment where kids build confidence, 
         learn discipline, and make lasting friendships.
     </p>
     <p>
@@ -156,7 +82,7 @@
 <section>
     <h2>Give Back</h2>
     <p>
-        We provide skateboards and gear to kids who otherwise couldn’t afford them.
+        We provide skateboards and gear to kids who otherwise couldn't afford them.
         Every donation helps a child get started and become part of something bigger.
     </p>
     <a href="#" class="btn">Donate or Sponsor</a>
@@ -165,12 +91,19 @@
 <section id="contact">
     <h2>Join the Movement</h2>
     <p>Be part of the OKC skate community. Ride with us.</p>
-    <p>Email: ninewillson@gmail.com</p>
-   
+    <p><strong>Email:</strong> ninewillson@gmail.com</p>
+    <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
 </section>
 
 <footer>
     <p>© 2026 OKC Skate Community | Built for the next generation of skaters</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
+</html>
